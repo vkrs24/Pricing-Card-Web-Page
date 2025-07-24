@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8831de0bd0.js" crossorigin="anonymous"></script>
+    <title>Pricing Card</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section_1">
+            <div class="des_1">
+                <p>Your current plan:</p>
+            </div>
+            <div class="des_2">
+                <h4>Starter Trial &middot;
+                    500MAUs</h4>
+
+            </div>
+        </div>
+        <div class="section_2">
+            <div class="plan">
+                <h1>Choose a plan</h1>
+            </div>
+            <div class="toogle_section">
+                <p>Billed monthly </p>
+                <i class="fa-solid fa-toggle-on toggle-icon toggle-on" onclick="toggle()"></i>
+                <p> Billed anually</p>
+            </div>
+        </div>
+        <div class="section_grid">
+            <div class="card">
+                <div class="card_head">
+                    <h2>Starter</h2>
+                    <h1 class="price">$99</h1>
+                </div>
+                <div class="card_body">
+                    <ul>
+                        <li>500 MAUs</li>
+                        <li>3 projects</li>
+                        <li>Unlimited guides</li>
+                        <li>Unlimited flows</li>
+                        <li>Unlimited branded themes</li>
+                        <li>Email Support</li>
+                    </ul>
+                </div>
+                <div class="card_footer">
+                    <button>Choose Plan</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_head">
+                    <h2>Pro</h2>
+                    <h1 class="price">$199<span>/ month</span></h1>
+                    <select name="MAUs" id="mau">
+                        <option value="1000">1000 MAUs</option>
+                        <option value="1500">1500 MAUs</option>
+                        <option value="2000">2000 MAUs</option>
+                        <option value="2500" selected>2500 MAUs</option>
+                    </select>
+                    <p>Monthly active users</p>
+                </div>
+                <div class="card_body">
+                    <ul>
+                        <li>500 MAUs</li>
+                        <li>3 projects</li>
+                        <li>Unlimited guides</li>
+                        <li>Unlimited flows</li>
+                        <li>Unlimited branded themes</li>
+                        <li>Email Support</li>
+                    </ul>
+                </div>
+                <div class="card_footer">
+                    <button class="choose_plan">Choose Plan</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_head">
+                    <h2>Enterprise</h2>
+                    <h1 class="price">Let's Talk!</h1>
+                </div>
+                <div class="card_body">
+                    <ul>
+                        <li>All Pro features</li>
+                        <li>Unlimited MAUs</li>
+                        <li>Dedicated environment</li>
+                        <li>Enterprise account administration</li>
+                        <li>Premium support and Services</li>
+                    </ul>
+                </div>
+                <div class="card_footer">
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
